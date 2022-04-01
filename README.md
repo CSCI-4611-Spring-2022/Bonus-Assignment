@@ -2,6 +2,8 @@
 
 **Due: Monday, May 2, 11:59pm CDT**
 
+*Note: Late points are not applicable to this assignment.*
+
 The purpose of this assignment to apply the graphics concepts you have learned in class to design and implement your own 3D game!  This is an optional bonus assignment that will replace the lowest score on the previous programs *only* if it benefits your grade.
 
 Unlike the work we have done previously, this assignment is completely open-ended.  You are completely free to implement whatever interactive 3D graphics program you want, so long as you meet the specific requirements listed below.  If you want to make a more serious application instead than a game, that is also possible.  This is your opportunity to show off what you can do with 3D graphics!
