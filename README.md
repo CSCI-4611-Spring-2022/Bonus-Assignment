@@ -1,8 +1,10 @@
 # Bonus Assignment: Create Your Own Game
 
-**Due: Monday, March 28, 11:59pm CDT**
+**Due: Monday, May 2, 11:59pm CDT**
 
-TBD
+The purpose of this assignment to apply the graphics concepts you have learned in class to design and implement your own 3D game!  This is an optional bonus assignment that will replace the lowest score on the previous programs *only* if it benefits your grade.
+
+Unlike the work we have done previously, this assignment is completely open-ended.  You are completely free to implement whatever interactive 3D graphics program you want, so long as you meet the specific requirements listed below.  If you want to make a more serious application instead than a game, that is also possible.  This is your opportunity to show off what you can do with 3D graphics!
 
 ## Submission Information
 
@@ -12,7 +14,14 @@ Name:
 
 Third Party Assets:
 
-Wizard Bonus Functionality:
+```
+/* Add your design specification here. This should include:
+ * Motivation/objective of the application
+ * Description of all its features and functions
+ * Complete instructions for the controls
+ * Anything else we need to know to run and grade your program.
+ */
+```
 
 ## Prerequisites
 
@@ -20,7 +29,7 @@ To work with this code, you will first need to install [Node.js](https://nodejs.
 
 ## Getting Started
 
-The starter code implements the general structure that we reviewed in lecture.  After cloning your repository, you will need to set up the initial project by pulling the dependencies from the node package manager with:
+The starter code implements the same basic structure that we have used in other programs in this class.  After cloning your repository, you will need to set up the initial project by pulling the dependencies from the node package manager with:
 
 ```
 npm install
@@ -34,19 +43,25 @@ npm run start
 
 The build system should launch your program in a web browser automatically.  If not, you can run it by pointing your browser at `http://localhost:8080`.
 
-## Requirements
-
-TBD.
-
 ## Rubric
 
-TBD.
+You have a great deal of freedom in implementing this assignment.  Although your program does not necessarily need to be a game, it should some specific goal or objective for the user.  It another words, just drawing a bunch of 3D objects on the screen for no particular reason will not be sufficient.  Your program will be graded out of 20 points according to the following criteria:
+
+- Write a detailed design specification, as described in the "Submission Information" section.  (2)
+- A basic scene has been created for you, including a ground plane, skybox, and a couple lights.  You should either extend or replace these existing objects to create a more visually interesting scene. You can feel free to use shapes built-in to Three.js or import 3D models that you find online, although make sure to cite any third party content that you include in your program.  (3) 
+- Your program should be *interactive*.  You are free to implement this however you want, including using the keyboard, mouse, or GUI widgets.  However, just drawing static objects on screen with no user interaction will not be sufficient. (3)
+- Your program contains at least five moving 3D objects.  They can either be directly controlled by the user, animated using prerecorded data, or physically simulated using gravity/collisions.  (4) 
+- Your program should make use of collision detection to do something interesting when (at minimum) two objects collide. (4)
+- Your program should include at least one 3D mesh with dynamic vertex properties.  For example, it could morph into another 3D shape or change other vertex buffers, such as normals or colors.  (2)
+- At least two objects in the scene should be texture mapped. (2)
 
 ## Wizard Bonus Challenge
 
-All of the assignments in the course will include great opportunities for students to go beyond the requirements of the assignment and do cool extra work. On each assignment, you can earn **one bonus point** for implementing a meaningful new feature to your program. This should involve some original new programming, and should not just be something that can be quickly implemented by copying and slightly modifying existing code.  
+Similar to previous assignments, you can earn **one bonus point** for going above and beyond the basic requirements for this assignment.  However, the criteria for being a "wizard" is a bit less specific due to the open-ended nature of the assignment.  During grading, we will look for the students that have truly attempted to do something exceptional, ambitious, or creative.  If you have a specific feature that you are proud of and would like us to make sure we consider it for the wizard bonus, please note this in the "Submission Information" section of your readme file.
 
-TBD
+## Third Party Assets
+
+In this assignment, you may want to download art assets on the internet.  A couple good sources for free 3D models include [CGtrader](https://www.cgtrader.com/) and [Kenney](https://kenney.nl/).  However, make sure to document all the third party assets included with your project, and include links to wherever you found them.  *Points may be deducted for third party assets that are not documented!*
 
 ## Submission
 
